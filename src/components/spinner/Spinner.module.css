@@ -1,0 +1,19 @@
+.spin {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+  animation: spinner-spin 0.8s linear infinite;
+  border: 0.125rem solid var(--lightest-grey);
+  border-top: 0.125rem solid var(--lighter-blue);
+  width: calc(100% - 0.25rem);
+  height: calc(100% - 0.25rem);
+}
+
+@keyframes spinner-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

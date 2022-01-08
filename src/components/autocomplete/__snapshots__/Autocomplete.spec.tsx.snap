@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete should render correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="inputContainer"
+  >
+    <input
+      className="input"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="inputIcon"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 9l-7 7-7-7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="popup"
+  />
+</div>
+`;
