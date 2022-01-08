@@ -198,7 +198,7 @@ const MyComponent = () => {
 }
 ```
 
-#### Convert each method to a function variable;
+#### Convert each method to a function variable
 
 ```js
 // This
@@ -212,7 +212,7 @@ const myMethod = () => {
 }
 ```
 
-#### Remove the keyword `this` from methods in the render function;
+#### Remove the keyword `this` from methods in the render function
 
 ```js
 // This
@@ -323,7 +323,7 @@ import styles from "MyComponent.module.css";
 const MyComponent = () => <div className={styles.someClass} />;
 ```
 
-#### Writing CSS-inJS (example below with styled-components):
+#### Writing CSS-in-JS (example below with styled-components):
 
 ```js
 const MyComponentRoot = styled("div")`
